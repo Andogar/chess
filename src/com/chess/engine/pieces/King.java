@@ -55,7 +55,7 @@ public class King extends Piece {
 
     @Override
     public String toString() {
-        return PieceType.BISHOP.toString();
+        return PieceType.KING.toString();
     }
 
     private static boolean isFirstColumnExclusion(final int currentPosition, final int positionOption) {
